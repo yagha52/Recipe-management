@@ -1,0 +1,20 @@
+.filter {
+    display: flex;
+    gap: 4vmin;
+    align-items: center;
+}
+
+.filter-select {
+    color: black;
+    padding: 1vmin;
+    border-radius: 1vmin;
+    border: none;
+    background-color: #967969;
+    cursor: pointer;
+}
+
+.filter-select:hover{
+    color: black;
+    background-color: #D3D3D3;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,39 @@
+.bookmark-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookmark-button:hover:not(.disabled) {
+    transform: scale(1.1);
+}
+
+.bookmark-button svg {
+    width: 24px;
+    height: 24px;
+    color: #666;
+}
+
+.bookmark-button.active svg {
+    color: #ff6b6b;
+}
+
+.bookmark-button.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.bookmark-button:focus {
+    outline: none;
+}
+
+.bookmark-button:focus-visible {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+    border-radius: 4px;
+}

@@ -1,0 +1,1 @@
+SELECT category_id FROM category WHERE category_name IN ('Italian', 'Mexican');
